@@ -30,4 +30,4 @@ jobs:
     - name: Installing Surge
       run: npm install --global surge
     - name: Deploying using surge
-      run: surge ./ javascript_a_to_z/ --token ${{ secrets.SURGE_TOKEN}}
+      run: surge ./ javascript_a_to_z.surge.sh/ --token ${{ secrets.SURGE_TOKEN}}
