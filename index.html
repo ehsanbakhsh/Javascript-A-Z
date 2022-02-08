@@ -26,6 +26,7 @@
     <div class="container">
         <h1>Tips</h1>
         <ol>
+            <h1>Basic Requirenments</h1>
             <li>
                 <ul>Basic Requirements to build a website
                     <li>Html</li>
@@ -33,6 +34,7 @@
                     <li>Javascript</li>
                 </ul>
             </li>
+            <h1>HTML</h1>
             <li>HTML(Hypertext Markup Language)
                 <ul>
                     <li>It ia Basic skeleton of website.</li>
@@ -40,6 +42,7 @@
                     <li>We cant use cs and javascript without html.</li>
                 </ul>
             </li>
+            <h1>CSS</h1>
             <li>Css(Cascading StylleSheet)
                 <ul>
                     <li>It is used to Deign our websites.</li>
@@ -47,6 +50,7 @@
                     <li>It makes our websites beautiful and moderen looking.</li>
                 </ul>
             </li>
+            <h1>Javascript</h1>
             <li>Javascript
                 <ul>
                     <li>Javascript which is often known as JS is a high-level dynamic inerpretted programming language.
@@ -64,6 +68,7 @@
                 </ul>
             </li>
             <li>Javascript can use in frontend as well as backend.</li>
+            <h1>Variables</h1>
             <li>Variables are piece of containers that store vlaues.
                 <br>
                 These are the Words that create that containers to store data:
@@ -74,10 +79,12 @@
                 </ul>
                 store your variables by cicking these buttons
             </li>
+            <h1>Data Types</h1>
             <li>Data Types in Javascript.
                 at a very High level there are two types if data types:
                 <ol>
                     <li>Primitive Data types</li>
+                    <h3>Primitive Data Types</h3>
                     <ul>
                         <li>string</li>
                         <li>number</li>
@@ -86,6 +93,7 @@
                         <li>undefined</li>
                         <li>symbol (Advance js)</li>
                     </ul>
+                    <h3>Reference Data Types</h3>
                     <li>Referrnce Data types</li>
                     <ul>
                         <li>Object</li>
@@ -106,7 +114,128 @@
                 <button class="btn btn-dark mx-3 my-3" id="/=Btn">/= 2 Operator</button>
             </div>
             <li>We can use console for solve math problems also.</li>
-
+            <h1>Comparison Operators</h1>
+            <li>Comparison Operators:
+                <br>
+                var x = 34; <br> var y = 56;
+                <ul>
+                    <li>console.log(x == y); // Return false</li>
+                    <li>console.log(x >= y); // Return false</li>
+                    <li>console.log(x <= y); // Return true</li>
+                    <li>console.log(x > y); // Return false</li>
+                    <li>console.log(x < y); // Return true</li>
+                </ul>
+            </li>
+            <h1>Logical Operators</h1>
+            <li>Logical Operators:
+                <br>
+                Logical & Operator
+                <ul>
+                    <li>console.log(true && true)// Return true</li>
+                    <li>console.log(true && false) // Return false</li>
+                    <li>console.log(false && true) // Return false</li>
+                    <li>console.log(false && false) // Return false</li>
+                </ul>
+                Logical || Operator
+                <ul>
+                    <li>console.log(true || true)// Return true</li>
+                    <li>console.log(true || false) // Return true</li>
+                    <li>console.log(false || true) // Return true</li>
+                    <li>console.log(false || false) // Return false</li>
+                </ul>
+                logical ! operator
+                <ul>
+                    <li>console.log(!true) // Return false</li>
+                    <li>console.log(!false) // Return true</li>
+                </ul>
+            </li>
+            <h1>Functions</h1>
+            <li>Functions:
+                <br>
+                these two functions are same.
+                <br>
+                var arr = [1,2,3,4,5,6,7,8,9]
+                <ul>
+                    <li>for (var i = 0 , i < arr.length , i++){ <br>
+                            console.log(arr[i])
+                            }
+                    </li>
+                </ul>
+                <ul>
+                    <li>arr.forEach(function(element){
+                        <br>
+                        console.log(element);
+                        })
+                    </li>
+                </ul>
+            </li>
+            <h1>Array methods</h1>
+            <li>.pop() is used to remove an element from last of th array</li>
+            <li>.push("Ehsan") is used to add an element of "Ehsan" at last of the array.</li>
+            <li>.shift() is used to remove first element frm Array.</li>
+            <li>.unshift("Ehsan") is used to add an element of "Ehsan" at 0 index of the Array.</li>
+            <li>.tostring() is used to convert an array to string.</li>
+            <li>.sort() is used to sort out our Array. It sort our array alphabatically</li>
+            <li>.length() is used to find the length of string.</li>
+            <li>.indexOf("Word") is used to find the index of the word passed in the paranthesis.it only find first
+                occurence.</li>
+            <li>.lastIndexOf("Word") is used to find the index of the word from last that is passed in the
+                parenthrsis.it only find first occurence.</li>
+            <li>.slice(0 , 5) is used to slice the string. it starts slicing from 0 and slice next 5 chracters.</li>
+            <li>.replace("Word that is replaced" , word by which replaced) is used to replace a word in string.it only
+                replace first occurence.</li>
+            <br>
+            <h1>Date</h1>
+            <li>new keyword is used to create new Date.</li>
+            <li>let date = new Date() is used to show current date and time.</li>
+            <li>date.getTime() is used to show time in milliseconds.</li>
+            <li>date.getFullYear() is used to get full year from date.</li>
+            <li>date.getDay() is used to get day from date in the form of index.</li>
+            <li>date.getMinutes() is used to get minutes from date.</li>
+            <li>date.getHour() is used to get hours from date.</li>
+            <br>
+            <br>
+            <h1>DOM Manipulation (Document Object model)</h1>
+            <li>document is used to access our tags that are used in out web page</li>
+            <li>let idElement = document.getElementById('click'); it is used to access the Element Thats id is "click"
+                and stores it in variable of idElement</li>
+            <li>let classElement = document.getElementsByclassName('container'); it is used to access the Element Thats
+                class is "container" and stores it in variable of classElement</li>
+            <li>classElement.style.background = "yellow" is used to set the backgrounnd of classElement to Yellow</li>
+            <li>classElement.classList.add("bg-primary") is used to set the class of classElement variable</li>
+            <li>classElement.classList.remove("bg-primary") is used to remove the class of bg-primary from classElement
+                variable</li>
+            <li>classElement.innerHTML; is used to access the inner HTML of the tag that is stored in classElement.</li>
+            <li>classElement.innerText; is used to access the inner text of the tag that is stored in classElement.</li>
+            <li>.getElementByTagName("button") is used to access all butons used in our webpage.</li>
+            <li>.createElement("element name"); is used to create an element and the name of element is written the
+                parenthesis.</li>
+            <li>.appendChild(created Element) is used to add the created element in any tag as a child.</li>
+            <li>.replaceChild(element name that is replaced , element name by which we replaced); is used to replace a
+                child with another child</li>
+            <li>.removeChild() is used to remove elements.</li>
+            <li>document.querrySelector(".container") is used to get the tag thats class name is container</li>
+            <li>document.querrySelectorAll(".container") is used to get all tags thats class Names are container</li>
+            <h1>Events in Javascript</h1>
+            <li>Here are some Events.
+                <ul>
+                    <li>click</li>
+                    <li>mouseOver</li>
+                    <li>mouseout</li>
+                    <li>abort</li>
+                    <li>blur</li>
+                    <li>dblClick</li>
+                    <li>drag</li>
+                    <li>focus</li>
+                    <li>keyDown</li>
+                    <li>keyup</li>
+                    <li>load</li>
+                    <li>mouseUp</li>
+                    <li>mouseDown</li>
+                    <li>mouseEnter</li>
+                    <li>mouseLesve</li>
+                </ul>
+            </li>
         </ol>
     </div>
 
